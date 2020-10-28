@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link ref="stylesheet" href="lab2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+</head>
+<body>
+    <h2>A Simple Form</h1>
+    <p><i>Form Fundamentals</i></p>
+    <form>
+        <fieldset style="width: 530px; height: 120px;">
+            <legend>Customer Information</legend>
+            <form>
+            Name: <input type="text"
+            name="name" placeholder="Enter your name"/>
+            <br/>
+            <br />
+            Telephone: <input type="text"
+            name="Telephone" placeholder="Pattern: 1-234-567-8910" style="width: 180px"/>
+            <br />
+            <br />
+            Email Address: <input type="email" id="email" name="email" placeholder="Enter your e-mail address">
+            </form> 
+        </fieldset>
+    </form>
+    <br/>
+    <form>
+    <fieldset style="width: 530px; height: 50px;">
+        <legend>Books</legend>
+        <input type="text" name="bookNamme"/>
+        <label for="books">Quantity Maximum 5: </label>
+        <input list="books" name="browser" id="browser">
+        <datalist id="books">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+        </datalist>
+    </fieldset>
+</form>
+<br />
+<button name="submit" type="submit" value="Submit">Submit</button>
+</body>
+</html>
